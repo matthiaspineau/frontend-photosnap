@@ -1,32 +1,62 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+
+    <!-- Navbar -->
+    <nav id="nav" class="container">
+      <div id="navbar" class="navbar" :class="{'active' : menuIsActive}">
+        <!-- Logo site -->
+        <div class="navbar__branding" @click="menuClose">
+          <router-link to="/">
+            <img :src="require('@/assets/images/logo/logo_black.svg')" alt="logo site">
+          </router-link>
+        </div>
+       
+
+        <!-- Links -->
+        <ul class="navbar__ul">
+          <li class="navbar__li" @click="menuClose"><router-link to="/storie">storie</router-link></li>
+          <li class="navbar__li" @click="menuClose"><router-link to="/features">features</router-link></li>
+          <li class="navbar__li" @click="menuClose"><router-link to="/pricing">pricing</router-link></li>
+          <li class="navbar__li navbar__li__last" @click="menuClose"><span>Get an invite</span></li>
+        </ul>
+        <div class="get__invite" @click="menuClose"><span>Get an invite</span></div>
+        <!-- Button menu -->
+        <div class="navbar__action">
+          <span class="navbar__action__open"
+          @click="menuOpen">
+            <img :src="require('@/assets/images/open_icon.svg')" alt="logo site">
+            </span>
+          <span class="navbar__action__close"
+          @click="menuOpen">
+            <img :src="require('@/assets/images/close_icon.svg')" alt="logo site">
+          </span>
+        </div>
+      </div>
+    </nav>
+    <div class="divider"
+    :class="{'active' : menuIsActive}"
+      @click="menuClose"></div>
+    <!-- View -->
     <router-view/>
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
+<script>
+export default {
+  data() {
+    return {
+      menuIsActive: false
+    }
+  },
+  methods: {
+    menuOpen() {
+      this.menuIsActive = !this.menuIsActive
+    },
+    menuClose() {
+      this.menuIsActive = false
     }
   }
 }
-</style>
+</script>
+
+<style src="@/assets/scss/app.scss" lang="scss"></style>

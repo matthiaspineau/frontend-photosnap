@@ -1,0 +1,26 @@
+// @font-face {
+//     font-family: 'dm-sans-medium';
+//     src: url('../fonts/DMSans-Medium.ttf');
+//     // font-weight: 500;
+// }
+
+@font-face {
+    font-family: 'dm-sans-regular';
+    src: url('../fonts/DMSans-Regular.ttf');
+    // font-weight: 600;
+}
+
+@font-face {
+    font-family: 'dm-sans-bold';
+    src: url('../fonts/DMSans-Bold.ttf');
+    // font-weight: 700;
+    // font-style: normal;
+}
+
+
+// ----- font
+// $font-dm-sans-medium: 'dm-sans-medium';
+$font-dm-sans-regular: 'dm-sans-regular';
+$font-dm-sans-bold: 'dm-sans-bold';
+
+

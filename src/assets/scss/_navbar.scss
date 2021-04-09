@@ -1,0 +1,243 @@
+// @media (min-width: 375px) {  
+// }
+// @media (min-width: 768px) {   
+// }
+// @media (min-width: 1440px) {
+// }
+#nav {
+
+    a {
+      font-family: $font-dm-sans-bold;
+      font-size: 12px;
+      letter-spacing: 2px;
+      color: $pure-black;
+      text-transform: uppercase;
+      text-decoration: none;
+  
+      &.router-link-exact-active {
+        color: $light-gray;
+      }
+    }
+}
+
+.navbar {
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__branding {
+        width: 176px;
+        height: 20px;
+    }
+
+    &__ul {
+        display: none;
+        position: absolute;
+        top: 72px;
+        left: 0;
+        right: 0;
+        z-index: 15;
+        background: $pure-white;
+        text-align: center;
+    }
+
+    &__li {
+        display: block;
+        margin-top: 20px;
+    }
+
+    &__li__last {
+        display: inline-block;
+        margin: 30px 0px 20px 0px;
+        color: $pure-white;
+        border: 1px solid $pure-black;
+        background: $pure-black;
+        text-transform: uppercase;
+        cursor: pointer;
+
+        span {
+            padding: 5px 65px;
+            display: block;
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: -20px;
+                left: 0;
+                right: 0;
+                height: 1px;
+                width: 100%;
+                background: $light-gray;
+            }
+        }
+
+    }
+
+    &__action__open, &__action__close {
+        display: inline-block;
+        padding: 2px 5px;
+        cursor: pointer;
+    } 
+
+    &__action__open { 
+        display: block;
+        img {
+            width: 16px;
+            height: 6px;
+        }
+    }
+
+    &__action__close {
+        display: none;
+        img {
+            width: 16px;
+            height: 15px;
+        }
+    }
+
+    .get__invite {
+        display: none;
+
+        span { 
+       
+            display: inline-block;
+            
+            color: $pure-white;
+            border: 1px solid $pure-black;
+            background: $pure-black;
+            text-transform: uppercase;
+            cursor: pointer;
+
+            padding: 5px 35px;
+            display: block; 
+        }
+       
+    }
+
+    @media (min-width: 768px) { 
+
+        &__ul {
+            // width: 80%;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-start;
+            position: relative;
+            top: inherit;
+            left: inherit;
+            right: inherit;
+            text-align: inherit;
+        }
+
+        &__li {
+            display: inline-block;
+            margin-top: inherit;
+            padding: 0px 15px;
+        }
+
+        &__li__last {
+            display: none;
+        }
+
+        &__action {
+            display: none;
+        }
+
+        &__action__open, &__action__close {
+            display: none;
+        } 
+
+        .get__invite {
+            display: block;
+        }
+    
+    }
+}
+
+.navbar.active {
+
+    .navbar__ul {
+        display: block;
+    }
+
+    .navbar__action__open {
+        display: none;
+    } 
+
+    .navbar__action__close {
+        display: block;
+    } 
+
+    .get__invite {
+        display: none;
+    }
+
+    @media (min-width: 768px) { 
+
+        .navbar__ul {
+            display: block;
+            position: relative;
+            top: inherit;
+            left: inherit;
+            right: inherit;
+            text-align: inherit;
+        }
+
+        .navbar__li {
+            display: inline-block;
+            margin-top: inherit;
+        }
+
+        .navbar__li__last {
+            display: none;
+        }
+
+        .navbar__action {
+            display: none;
+        }
+
+        .navbar__action__open, .navbar__action__close {
+            display: none;
+        } 
+
+        .get__invite {
+            display: block;
+        }
+    }
+}
+
+.divider {
+    display: none;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    background: rgba(0,0,0,0.5);
+
+    @media (min-width: 768px) { 
+        display: none;
+    }
+}
+
+.divider.active {
+    display: block;
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    // bottom: 0;
+    // background: rgba(0,0,0,0.5)
+    @media (min-width: 768px) { 
+        display: none;
+    }
+}
+
+
+

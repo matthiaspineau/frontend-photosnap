@@ -1,24 +1,5 @@
 # front-photosnap
 
-## Project setup
-```
-npm install
-```
+link challenge : https://www.frontendmentor.io/challenges/photosnap-multipage-website-nMDSrNmNW
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
