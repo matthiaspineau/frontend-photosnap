@@ -1,0 +1,61 @@
+// .wrapper_service {
+
+// }
+
+// @media (min-width: 375px) {  
+// }
+// @media (min-width: 768px) {   
+// }
+// @media (min-width: 1440px) {
+// }
+
+
+.contain__services__home {
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    @media (min-width: 1440px) {
+        display: flex;
+        justify-content: center;
+        padding-left: 65px;
+        padding-right: 65px;
+    }
+}
+
+.service {
+    margin: 15px;
+    padding: 35px;
+    text-align: center;
+
+    &__media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 105px;
+        padding: 15px;
+    }
+
+    &__media__div {
+        max-width: 72px;
+    }
+
+    &__text {
+        margin-top: 25px;
+        color: $pure-black;
+
+        &__title {
+            // font-family: $font-dm-sans-bold;
+            margin-bottom: 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        &__description {
+            // font-family: $font-dm-sans-bold;
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+
+}

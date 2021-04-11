@@ -10,7 +10,6 @@
             <img :src="require('@/assets/images/logo/logo_black.svg')" alt="logo site">
           </router-link>
         </div>
-       
 
         <!-- Links -->
         <ul class="navbar__ul">
@@ -33,9 +32,10 @@
         </div>
       </div>
     </nav>
-    <div class="divider"
-    :class="{'active' : menuIsActive}"
-      @click="menuClose"></div>
+
+    <!-- Divider -->
+    <div class="divider" :class="{'active' : menuIsActive}" @click="menuClose"></div>
+
     <!-- View -->
     <router-view/>
   </div>
