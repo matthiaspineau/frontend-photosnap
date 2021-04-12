@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    
     <!-- Header -->
     <header class="container">
       <div class="h-header">
@@ -33,11 +32,24 @@
 
 
     <main class="container">
-      <div class="wrapper__home__articles">
-       
-       <articles-item  v-for="(article, index) in home.articles" :key="article.id"
-        :item="home.articles[index]" :isInverse="index % 2 == 0 ? false : true"></articles-item>
-      </div>
+      <!-- Articles -->
+      <section>
+        <div class="wrapper__home__articles">
+          <articles-item  v-for="(article, index) in home.articles" 
+            :key="article.id"
+            :item="home.articles[index]" 
+            :isInverse="index % 2 == 0 ? false : true"></articles-item>
+        </div>
+      </section>
+
+      <!-- Products -->
+      <section>
+        <div class="wrapper__home__products">
+          <product-item v-for="(product, index) in home.products" 
+            :key="product.id"
+            :item="home.products[index]" ></product-item>
+        </div>
+      </section>
     </main>
  
 
@@ -58,6 +70,7 @@
 import HomeFile from '@/assets/store/home.json';
 import ServicesItem from '@/components/ServicesItem.vue';
 import ArticlesItem from '@/components/ArticlesItem.vue';
+import ProductItem from '@/components/ProductItem.vue';
 
 
 export default {
@@ -72,8 +85,9 @@ export default {
   },
   name: 'Home',
   components: {
-   ServicesItem,
-    ArticlesItem
+    ServicesItem,
+    ArticlesItem,
+    ProductItem
   }
 }
 </script>

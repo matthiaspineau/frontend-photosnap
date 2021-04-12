@@ -1,0 +1,116 @@
+.wrapper__home__products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    position: relative;
+    font-family: $font-dm-sans-regular;
+    color: $pure-white;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.5s;
+
+    .product__filtre {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background: rgba(0,0,0,0.5);
+
+        &::after {
+            display: none;
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(to right,  #5a77ff, #bc7198 50%,  #ffc593 100%);
+        }
+    }
+
+    &:hover {
+        transform: translateY(-15px);
+
+        .product__filtre {
+            &::after {
+                display: block;
+            }
+        }   
+    }
+    
+    
+
+    &__text {
+        padding: 0 40px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    &__text__date {
+        display: block;
+        margin-bottom: 12px;
+        font-size: 13px;
+    }
+
+    &__text__title {
+        margin-bottom: 12px;
+        font-family: $font-dm-sans-bold;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25px;
+        color: $pure-white;
+    }
+
+    &__text__author {
+        position: relative;
+        margin-bottom: 0;
+        font-family: $font-dm-sans-regular;
+        padding-bottom: 12px;
+        font-weight: 300;
+        font-size: 13px;
+        color: $pure-white;
+        
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            width: 100%;
+            background: rgba(222, 222, 222, 0.4)
+
+        }   
+    }
+
+    &__text__link {
+        padding-top: 12px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: $font-dm-sans-regular;
+        font-weight: 400;
+        font-size: 12px;
+        letter-spacing: 2px;
+        font-weight: bold;
+        text-transform: uppercase;
+        cursor: pointer;
+        
+    }
+
+    @media (min-width: 780px) {
+        width: 50%;
+    }
+    
+    @media (min-width: 1400px) {
+        width: 25%;
+    }
+
+}

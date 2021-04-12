@@ -34,45 +34,49 @@
                 }
             }
         ],
-        "cards": [
+        "products": [
             {
                 "id": 1,
                 "title": "The Mountains",
                 "by": "by John Appleseed",
+                "date": "April 16th 2020",
                 "media": {
-                    "mobile": "",
+                    "mobile": "mobile/mountains.jpg",
                     "tablet": "",
-                    "desktop": ""
+                    "desktop": "desktop/mountains.jpg"
                 }
             },
             {
                 "id": 2,
                 "title": "Sunset Cityscapes",
                 "by": "by Benjamin Cruz",
+                "date": "April 14th 2020",
                 "media": {
-                    "mobile": "",
+                    "mobile": "mobile/cityscapes.jpg",
                     "tablet": "",
-                    "desktop": ""
+                    "desktop": "desktop/cityscapes.jpg"
                 }
             },
             {
                 "id": 3,
                 "title": "18 Days Voyage",
                 "by": "by Alexei Borodin",
+                "date": "April 11th 2020",
                 "media": {
-                    "mobile": "",
+                    "mobile": "mobile/18-days-voyage.jpg",
                     "tablet": "",
-                    "desktop": ""
+                    "desktop": "desktop/18-days-voyage.jpg"
                 }
             },
             {
                 "id": 4,
                 "title": "Architecturals",
                 "by": "by Samantha Brooke",
+                "date": "April 9th 2020",
                 "media": {
-                    "mobile": "",
+                    "mobile": "mobile/architecturals.jpg",
                     "tablet": "",
-                    "desktop": ""
+                    "desktop": "desktop/architecturals.jpg"
                 }
             }
         ],

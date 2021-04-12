@@ -38,10 +38,71 @@
 
     <!-- View -->
     <router-view/>
+
+    <!-- Footer -->
+    <div class="wrapper__footer">
+      <div class="container">
+
+        <footer class="footer">  
+          <!-- Logo -->
+          <div class="footer__branding" @click="menuClose">  
+            <img :src="require('@/assets/images/logo/logo_white.svg')" alt="logo site">
+          </div>
+          
+          <!-- Socials -->
+          <ul class="footer__socials__links">
+            <li class="footer__socials__link">
+              <img class="footer__socials__link--n" :src="require('@/assets/images/socials_icons/facebook.svg')" alt="logo socials">
+              <img class="footer__socials__link--h" :src="require('@/assets/images/socials_icons/facebook_h.svg')" alt="logo socials">
+            </li>
+            <li class="footer__socials__link">
+              <img class="footer__socials__link--n" :src="require('@/assets/images/socials_icons/youtube.svg')" alt="logo socials">
+              <img class="footer__socials__link--h" :src="require('@/assets/images/socials_icons/youtube_h.svg')" alt="logo socials">
+            </li>
+            <li class="footer__socials__link">
+              <img class="footer__socials__link--n" :src="require('@/assets/images/socials_icons/twitter.svg')" alt="logo socials">
+              <img class="footer__socials__link--h" :src="require('@/assets/images/socials_icons/twitter_h.svg')" alt="logo socials">
+            </li>
+            <li class="footer__socials__link">
+              <img class="footer__socials__link--n" :src="require('@/assets/images/socials_icons/pinterest.svg')" alt="logo socials">
+              <img class="footer__socials__link--h" :src="require('@/assets/images/socials_icons/pinterest_h.svg')" alt="logo socials">
+            </li>
+            <li class="footer__socials__link">
+              <img class="footer__socials__link--n" :src="require('@/assets/images/socials_icons/instagram.svg')" alt="logo socials">
+              <img class="footer__socials__link--h" :src="require('@/assets/images/socials_icons/instagram_h.svg')" alt="logo socials">
+            </li>
+          </ul>
+
+             <!-- links -->
+          <ul class="footer__nav__links">
+            <li class="footer__nav__link" @click="menuClose"><router-link to="/">home</router-link></li>
+            <li class="footer__nav__link" @click="menuClose"><router-link to="/storie">storie</router-link></li>
+            <li class="footer__nav__link" @click="menuClose"><router-link to="/features">features</router-link></li>
+            <li class="footer__nav__link last" @click="menuClose"><router-link to="/pricing">pricing</router-link></li>
+          </ul>
+
+          <!-- Button -->
+          <div class="footer__invite">
+            <span>Get an invite</span>
+            <svg class="svg__btn__arrow" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 7H41.864" />
+                    <path d="M35.4282 1L41.4282 7L35.4282 13" />
+              </svg>
+          </div>
+
+          <!-- Copyright -->
+          <h4 class="footer__copyright">Copyright 2019. All Rights Reserved</h4>
+
+        </footer>
+
+      </div>
+    </div>
+
   </div>
 </template>
 
 <script>
+
 export default {
   data() {
     return {
@@ -55,7 +116,7 @@ export default {
     menuClose() {
       this.menuIsActive = false
     }
-  }
+  },
 }
 </script>
 

@@ -1,0 +1,182 @@
+{
+    "data": {
+        "products": [
+            {
+                "id": 1,
+                "title": "The Mountains",
+                "by": "by John Appleseed",
+                "date": "April 16th 2020",
+                "media": {
+                    "mobile": "mobile/mountains.jpg",
+                    "tablet": "",
+                    "desktop": "desktop/mountains.jpg"
+                }
+            },
+            {
+                "id": 2,
+                "title": "Sunset Cityscapes",
+                "by": "by Benjamin Cruz",
+                "date": "April 14th 2020",
+                "media": {
+                    "mobile": "mobile/cityscapes.jpg",
+                    "tablet": "",
+                    "desktop": "desktop/cityscapes.jpg"
+                }
+            },
+            {
+                "id": 3,
+                "title": "18 Days Voyage",
+                "by": "by Alexei Borodin",
+                "date": "April 11th 2020",
+                "media": {
+                    "mobile": "mobile/18-days-voyage.jpg",
+                    "tablet": "",
+                    "desktop": "desktop/18-days-voyage.jpg"
+                }
+            },
+            {
+                "id": 4,
+                "title": "Architecturals",
+                "by": "by Samantha Brooke",
+                "date": "April 9th 2020",
+                "media": {
+                    "mobile": "mobile/architecturals.jpg",
+                    "tablet": "",
+                    "desktop": "desktop/architecturals.jpg"
+                }
+            },
+            {
+                "id": 5,
+                "title": "World Tour 2019",
+                "by": "by Timothy Wagner",
+                "date": "April 7th 2020",
+                "media": {
+                    "mobile": "mobile/world-tour.jpg",
+                    "tablet": "",
+                    "desktop": "desktop/world-tour.jpg"
+                }
+            },
+            {
+                "id": 6,
+                "title": "Unforeseen Corners",
+                "by": "by William Malcolvm",
+                "date": "April 3rd 2020",
+                "media": {
+                    "mobile": "mobile/unforeseen-corners.jpg",
+                    "tablet": "",
+                    "desktop": "desktop/unforeseen-corners.jpg"
+                }
+            },
+            {
+                "id": 7,
+                "title": "King on Africa: Part II",
+                "by": "by Tim Hillenburg",
+                "date": "March 29th 2020",
+                "media": {
+                    "mobile": "mobile/king-on-africa.jpg",
+                    "tablet": "",
+                    "desktop": "desktop/king-on-africa.jpg"
+                }
+            },
+            {
+                "id": 8,
+                "title": "The Trip to Nowhere",
+                "by": "by Felicia Rourke",
+                "date": "March 21st 2020",
+                "media": {
+                    "mobile": "mobile/trip-to-nowhere.jpg",
+                    "tablet": "",
+                    "desktop": "desktop/trip-to-nowhere.jpg"
+                }
+            },
+            {
+                "id": 9,
+                "title": "Rage of The Sea",
+                "by": "by Mohammed Abdul",
+                "date": "March 19th 2020",
+                "media": {
+                    "mobile": "mobile/rage-of-the-sea.jpg",
+                    "tablet": "",
+                    "desktop": "desktop/rage-of-the-sea.jpg"
+                }
+            },
+            {
+                "id": 10,
+                "title": "Running Free",
+                "by": "by Michelle",
+                "date": "March 16th 2020",
+                "media": {
+                    "mobile": "mobile/running-free.jpg",
+                    "tablet": "",
+                    "desktop": "desktop/running-free.jpg"
+                }
+            },
+            {
+                "id": 11,
+                "title": "Behind the Waves",
+                "by": "by Lamarr Wilson",
+                "date": "March 11th 2020",
+                "media": {
+                    "mobile": "mobile/behind-the-waves.jpg",
+                    "tablet": "",
+                    "desktop": "desktop/behind-the-waves.jpg"
+                }
+            },
+            {
+                "id": 12,
+                "title": "Calm Waters",
+                "by": "by Samantha Brooke",
+                "date": "March 9th 2020",
+                "media": {
+                    "mobile": "mobile/calm-waters.jpg",
+                    "tablet": "",
+                    "desktop": "desktop/calm-waters.jpg"
+                }
+            },
+            {
+                "id": 13,
+                "title": "The Milky Way",
+                "by": "by Benjamin Cruz",
+                "date": "March 5th 2020",
+                "media": {
+                    "mobile": "mobile/milky-way.jpg",
+                    "tablet": "",
+                    "desktop": "desktop/milky-way.jpg"
+                }
+            },
+            {
+                "id": 14,
+                "title": "Night at The Dark Forest",
+                "by": "by  Mohammed Abdul",
+                "date": "March 4th 2020",
+                "media": {
+                    "mobile": "mobile/dark-forest.jpg",
+                    "tablet": "",
+                    "desktop": "desktop/dark-forest.jpg"
+                }
+            },
+            {
+                "id": 15,
+                "title": "Somwarpet’s Beauty",
+                "by": "by Michelle",
+                "date": "March 1st 2020",
+                "media": {
+                    "mobile": "mobile/somwarpet.jpg",
+                    "tablet": "",
+                    "desktop": "desktop/somwarpet.jpg"
+                }
+            },
+            {
+                "id": 16,
+                "title": "Land of Dreams",
+                "by": "by William Malcolm",
+                "date": "February 25th 2020",
+                "media": {
+                    "mobile": "mobile/land-of-dreams.jpg",
+                    "tablet": "",
+                    "desktop": "desktop/land-of-dreams.jpg"
+                }
+            }
+        ] 
+    }
+}
