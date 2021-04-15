@@ -1,0 +1,216 @@
+{
+    "data": {
+        "header": {
+            "title": "pricing",
+            "description": "Create a your stories, Photosnap is a platform for photographers and visual storytellers. It’s the simple way to create and share your photos.",
+            "media": {
+                "mobile": "mobile/hero.jpg",
+                "tablet": "tablet/hero.jpg",
+                "desktop": "desktop/hero.jpg"
+            }
+        },
+        "cards": [
+            {
+                "id": 1,
+                "formule": "basic",
+                "title": "Basic",
+                "description": "Includes basic usage of our platform. Recommended for new and aspiring photographers.",
+                "month": {
+                    "text": "per Month",
+                    "value": "$19.00"
+                },
+                "years": {
+                    "text": "per Year",
+                    "value": "$228.00"
+                },
+                "button": "pick plan",
+                "theme": "light"
+            },
+            {
+                "id": 2,
+                "formule": "pro",
+                "title": "Pro",
+                "description": "More advanced features available. Recommended for photography veterans and professionals.",
+                "month": {
+                    "text": "per Month",
+                    "value": "$39.00"
+                },
+                "years": {
+                    "text": "per Year",
+                    "value": "$468.00"
+                },
+                "button": "pick plan",
+                "theme": "dark"
+            },
+            {
+                "id": 3,
+                "formule": "business",
+                "title": "Business",
+                "description": "Additional features available such as more detailed metrics. Recommended for business owners.",
+                "month": {
+                    "text": "per Month",
+                    "value": "$99.00"
+                },
+                "years": {
+                    "text": "per Year",
+                    "value": "$1188.00"
+                },
+                "button": "pick plan",
+                "theme": "light"
+            }
+
+        ],
+        "compare": {
+            "title": "compare",
+            "features": {
+                "title": "the features",
+                "keys": [
+                    {
+                        "key": "posting",
+                        "value": "unlimited story posting"
+                    },
+                    {
+                        "key": "upload",
+                        "value": "unlimited photo upload"
+                    },
+                    {
+                        "key": "content",
+                        "value": "embedding custom content"
+                    },
+                    {
+                        "key": "metadata",
+                        "value": "cuztomize metadate"
+                    },
+                    {
+                        "key": "metrics",
+                        "value": "advanced metrics"
+                    },
+                    {
+                        "key": "downloads",
+                        "value": "photo downloads"
+                    },
+                    {
+                        "key": "indexing",
+                        "value": "search engine indexing"
+                    },
+                    {
+                        "key": "analytics",
+                        "value": "custom analytics"
+                    }
+                ]
+            },
+            "basic": {
+                "title": "basic",
+                "keys": [
+                    {
+                        "key": "posting",
+                        "value": true
+                    },
+                    {
+                        "key": "upload",
+                        "value": true
+                    },
+                    {
+                        "key": "content",
+                        "value": false
+                    },
+                    {
+                        "key": "metadata",
+                        "value": false
+                    },
+                    {
+                        "key": "metrics",
+                        "value": false
+                    },
+                    {
+                        "key": "downloads",
+                        "value": false
+                    },
+                    {
+                        "key": "indexing",
+                        "value": false
+                    },
+                    {
+                        "key": "analytics",
+                        "value": false
+                    }
+                ]
+            },
+            "pro": {
+                "title": "pro",
+                "keys": [
+                    {
+                        "key": "posting",
+                        "value": true
+                    },
+                    {
+                        "key": "upload",
+                        "value": true
+                    },
+                    {
+                        "key": "content",
+                        "value": true
+                    },
+                    {
+                        "key": "metadata",
+                        "value": true
+                    },
+                    {
+                        "key": "metrics",
+                        "value": false
+                    },
+                    {
+                        "key": "downloads",
+                        "value": false
+                    },
+                    {
+                        "key": "indexing",
+                        "value": false
+                    },
+                    {
+                        "key": "analytics",
+                        "value": false
+                    }
+                ]
+            },
+            "busines": {
+                "title": "busines",
+                "keys": [
+                    {
+                        "key": "posting",
+                        "value": true
+                    },
+                    {
+                        "key": "upload",
+                        "value": true
+                    },
+                    {
+                        "key": "content",
+                        "value": true
+                    },
+                    {
+                        "key": "metadata",
+                        "value": true
+                    },
+                    {
+                        "key": "metrics",
+                        "value": true
+                    },
+                    {
+                        "key": "downloads",
+                        "value": true
+                    },
+                    {
+                        "key": "indexing",
+                        "value": true
+                    },
+                    {
+                        "key": "analytics",
+                        "value": true
+                    }
+                ]
+            }
+        }
+        
+    }
+}

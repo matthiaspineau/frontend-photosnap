@@ -13,7 +13,7 @@
 
         <!-- Links -->
         <ul class="navbar__ul">
-          <li class="navbar__li" @click="menuClose"><router-link to="/storie">storie</router-link></li>
+          <li class="navbar__li" @click="menuClose"><router-link to="/stories">stories</router-link></li>
           <li class="navbar__li" @click="menuClose"><router-link to="/features">features</router-link></li>
           <li class="navbar__li" @click="menuClose"><router-link to="/pricing">pricing</router-link></li>
           <li class="navbar__li navbar__li__last" @click="menuClose"><span>Get an invite</span></li>
@@ -83,11 +83,12 @@
 
           <!-- Button -->
           <div class="footer__invite">
-            <span>Get an invite</span>
+            <link-item :linkText="'Get an invite'" :onHeader="true"></link-item>
+            <!-- <span>Get an invite</span>
             <svg class="svg__btn__arrow" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 7H41.864" />
                     <path d="M35.4282 1L41.4282 7L35.4282 13" />
-              </svg>
+              </svg> -->
           </div>
 
           <!-- Copyright -->
@@ -102,10 +103,11 @@
 </template>
 
 <script>
-
+import LinkItem from '@/components/LinkItem.vue'
 export default {
   data() {
     return {
+   
       menuIsActive: false
     }
   },
@@ -117,6 +119,9 @@ export default {
       this.menuIsActive = false
     }
   },
+  components: {
+    LinkItem   
+  }
 }
 </script>
 

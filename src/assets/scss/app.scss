@@ -10,12 +10,15 @@
 @import '_services.scss';
 @import '_articles.scss';
 @import '_products.scss';
+@import '_hearders.scss';
 @import '_footer.scss';
+@import '_banner.scss';
+@import '_pricing.scss';
+
 
 #app {
     position: relative;
 
-    min-height: 900px;
+    // min-height: 900px;
 }
-
 

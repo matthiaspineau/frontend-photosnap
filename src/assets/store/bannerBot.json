@@ -1,0 +1,12 @@
+{
+    "data": {
+        "banner": {
+            "title": "We’re in beta. Get your invite today",
+            "media": {
+                "mobile": "mobile/bg-beta.jpg",
+                "tablet": "tablet/bg-beta.jpg",
+                "desktop": "desktop/bg-beta.jpg"
+            }
+        }
+    }
+}

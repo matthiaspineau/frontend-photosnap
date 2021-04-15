@@ -16,10 +16,10 @@
     
     &__text {
         position: relative;
+        padding: 0 40px;
     }
 
     &__text__title {
-        padding: 0 40px;
         margin-bottom: 20px;
         letter-spacing: 3.3px;
         font-size: 32px;
@@ -28,27 +28,25 @@
     }
 
     &__text__description {
-        padding: 0 40px;
         font-weight: 400;
         font-size: 15px;
         line-height: 25px;
         color: $pure-black;
     }
 
-    &__text__link {
-        padding: 0 40px;
-        display: flex;
-        align-items: center;
-        font-weight: 400;
-        font-size: 15px;
-        color: $pure-black;
-    }
+    // &__text__link {
+    //     display: flex;
+    //     align-items: center;
+    //     font-weight: 400;
+    //     font-size: 15px;
+    //     color: $pure-black;
+    // }
 
-    &__text__arrow {
-        width: 45px;
-        margin-left: 25px;
-        stroke: $pure-black;
-    }
+    // &__text__arrow {
+    //     width: 45px;
+    //     margin-left: 25px;
+    //     stroke: $pure-black;
+    // }
    
     @media (min-width: 650px) {   
 
@@ -85,10 +83,10 @@
             font-size: 40px;
         }
 
-        &__text__arrow {
-            width: 45px;
-            // stroke: $pure-black;
-        }
+        // &__text__arrow {
+        //     width: 45px;
+        //     // stroke: $pure-black;
+        // }
     }
 
     @media (min-width: 1400px) {   
@@ -101,12 +99,5 @@
             width: 40%;
         }
     }
-
-  // p {
-//     // font-family: $font-dm-sans-regular;
-//     font-weight: 400;
-//     font-size: 15px;
-//     color: $pure-black;
-// }
 
 }

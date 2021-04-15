@@ -18,13 +18,7 @@
           <div class="h-header__text">
             <h1 class="h-header__text__title">{{ home.header.title }}</h1>
             <p class="h-header__text__description">{{ home.header.description }}</p>
-            <div class="h-header__text__link">
-              <span>{{ home.header.link }}</span>
-              <svg class="h-header__text__arrow" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 7H41.864" />
-                <path d="M35.4282 1L41.4282 7L35.4282 13" />
-              </svg>
-            </div>
+            <link-item :linkText="home.header.link" :onHeader="true"></link-item>
           </div>
         </div>
       </div>
@@ -71,6 +65,7 @@ import HomeFile from '@/assets/store/home.json';
 import ServicesItem from '@/components/ServicesItem.vue';
 import ArticlesItem from '@/components/ArticlesItem.vue';
 import ProductItem from '@/components/ProductItem.vue';
+import LinkItem from '@/components/LinkItem.vue';
 
 
 export default {
@@ -87,7 +82,8 @@ export default {
   components: {
     ServicesItem,
     ArticlesItem,
-    ProductItem
+    ProductItem,
+    LinkItem
   }
 }
 </script>

@@ -11,5 +11,49 @@
 .svg__btn__arrow {
     width: 45px;
     margin-left: 25px;
-    stroke: $light-gray;
+    stroke: $pure-white;
 }
+
+.btn-link {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+
+    &__text {
+        color: $pure-black;
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }   
+
+    &__icon {
+        width: 45px;
+        margin-left: 25px;
+        stroke: $pure-black;
+    }
+
+    &:hover {
+        .btn-link__text {
+            text-decoration: underline;
+        }   
+    }
+}
+
+
+.btn-link.btn-link--heading {
+ 
+    .btn-link__text {
+        color: $light-gray;
+    }   
+
+    .btn-link__icon {
+        width: 45px;
+        margin-left: 25px;
+        stroke: $light-gray;
+    }
+}
+
+
+

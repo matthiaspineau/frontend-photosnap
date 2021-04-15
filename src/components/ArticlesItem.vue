@@ -18,13 +18,7 @@
             <p class="a-article__text__description">
             {{ item.description }}
             </p>
-            <div class="a-article__text__link">
-            <span>{{ item.link }}</span>
-            <svg class="a-article__text__arrow" viewBox="0 0 42 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 7H41.864" />
-                <path d="M35.4282 1L41.4282 7L35.4282 13" />
-            </svg>
-            </div>
+            <link-item :linkText="item.link" :onHeader="false"></link-item>
         </div>
       </div>
     </div>
@@ -32,6 +26,8 @@
 </template>
 
 <script>
+import LinkItem from '@/components/LinkItem.vue';
+
 export default {
     name: 'ArticlesItem',
     props: {
@@ -55,6 +51,9 @@ export default {
           type: Boolean,
           default: false
         }
+    },
+    components: {
+      LinkItem
     }
 }
 </script>

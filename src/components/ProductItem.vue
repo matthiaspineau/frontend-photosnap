@@ -12,7 +12,7 @@
         </div>
         <div class="product__text">
             <span class="product__text__date">{{ item.date }}</span>
-            <h2 class="product__text__title">{{ item.title }}</h2>
+            <h3 class="product__text__title">{{ item.title }}</h3>
             <h4 class="product__text__author">{{ item.by }}</h4>
             <div class="product__text__link">
                 <span>read Story</span>

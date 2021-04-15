@@ -32,17 +32,6 @@
         }
     }
 
-    &:hover {
-        transform: translateY(-15px);
-
-        .product__filtre {
-            &::after {
-                display: block;
-            }
-        }   
-    }
-    
-    
 
     &__text {
         padding: 0 40px;
@@ -107,6 +96,16 @@
 
     @media (min-width: 780px) {
         width: 50%;
+
+        &:hover {
+            transform: translateY(-15px);
+    
+            .product__filtre {
+                &::after {
+                    display: block;
+                }
+            }   
+        }
     }
     
     @media (min-width: 1400px) {
